@@ -1,0 +1,21 @@
+{
+ "renderer": "TT",
+ "assembler": 
+  [
+   "GPG::Sign",
+   {
+    "html_wrapper": "wrapper.html",
+    "text_wrapper": "wrapper.txt"
+   }
+  ],
+ "header": 
+  [
+   { "From": "LinuxRulz <noreply@linuxrulz.de>" },
+   { "To": "Stephan Jauernick <stephan@linuxrulz.de>" },
+   { "Subject": "Welcome aboard, Test!" }
+  ], 
+ "alternatives": 
+  [
+   { "type": "text/plain", "path": "body.txt" }
+  ]
+}
